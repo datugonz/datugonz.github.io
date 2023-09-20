@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel ="stylesheet" href="style.css">
+    <title> Reservations | Kate Hotel </title>
+    <link rel = "icon" type = "image/jpg" href="Kate_Html_Pics/Orange_Rocks.jpg" >
+</head>
+
+<body>
+    <p>  <h1> MAKE YOUR RESERVATION </h1></p>
+<form action = "index.php" method ="post">
+
+    <label for = " first name"> First Name : </label>
+    <input type = "text" id="firstname" placeholder="John"  required>
+    <br>
+    <br>
+    <label for = " Last name"> Last Name : </label>
+    <input type = "text" id="lastname"  placeholder="Buyaga" required>
+    <br>
+    <br>
+    <label for = "email"> Email : </label>
+    <input type = "text" id="email" placeholder="johnbuyaga@gmail.com"  required>
+    <br>
+    <br>
+    <label for = "phone number"> Phone Number : </label>
+    <input type = "phone number " id="phone" placeholder="075544567"  required>
+    <br>
+    <br>
+    <label for = "Check in date "> Check-In : </label>
+    <input type = "date" id="checkin"  required>
+    <br>
+    <br>
+    <label for = "Check out date "> Check-In : </label>
+    <input type = "date" id="checkout"  required>
+    <br>
+    <br>
+    <label for = "Rooms"> Number of Rooms : </label>
+    <input type = "number" id="Rooms"  required>
+    <br>
+    <br>
+    <label for = "Rooms"> Types of Rooms : </label>
+    <select id=" room type">
+        <option value = "Standard Queen"> Standard Queen</option>
+        <option value = "Standard King"> Standard King</option>
+        <option value = "Standard Doubles"> Standard Doubles</option>
+        <option value = "Executive suite"> Executive suite</option>
+    </select>
+<button> Add Rooms</button>
+<br>
+<br>
+<label for = "extra requests"> Please add any notes you would like for your stay : </label>
+<br>
+<textarea id = "comments " rows = "5"  cols="38"> </textarea>
+
+<br>
+<br>
+
+<input type ="reset">
+<input type ="submit">
+</form>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,115 @@
+header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 10px;
+/* background-position: fixed; */
+background-color: rgb(251,243,140);
+
+}
+
+body
+{
+    background-color: rgb(255, 255, 255); 
+    margin: 0px;
+}
+
+.food_images{ display:flex;} 
+.food_images img{margin-right: 5px;}
+
+a:link { text-decoration: none; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:active { text-decoration: none; }
+.header_menu
+{ 
+    
+ color: rgb(21, 20, 20);
+  text-decoration:none;
+  font-family: "Roboto Condensed"ar;
+  text-align: right;
+  font-size: 1em;
+}
+#logo{width: 180px;}
+.first_page_photos
+{
+  width: 100%;
+  z-index: 0;
+  padding: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#first_page_photo_nonfirst
+{
+    height:auto;
+}
+
+.welcome
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+#welcome_tag
+{
+    margin-top: 0 ;margin-bottom: 0 ;
+    color: brown;
+    font-family: <b>"Roboto Condensed" </b>;
+    font-size:4em;
+    text-align: center;
+}
+
+#welcome_description
+    {
+        margin-top: 0 ;
+        margin-bottom: 0 ;
+        color: rgb(14, 2, 2);
+        font-family: "Roboto Condensed";
+        font-size: 1.8em;
+        text-align: center;
+       overflow:auto;
+       
+    }    
+
+.page_menu
+{
+    color: brown;
+    font-family: <b> "Roboto Condensed" </b>;
+    font-size :3em;
+    text-align: center;
+}
+
+.page_menu_description 
+{
+    color: rgb(42, 25, 5);
+    font-family: "Roboto Condensed";
+    font-size: 1.5em;
+    text-align: center;
+}
+.page_submenu
+{
+    margin-top: 0 ;
+
+    color: rgb(243, 135, 63);
+    font-family: lalezar;
+    font-size : 1em;
+    text-align: center;
+}
+#page_2_welcome_tag
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: rgb(194, 137, 45); 
+}
+
+
+
+
+
